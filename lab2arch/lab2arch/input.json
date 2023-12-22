@@ -1,0 +1,26 @@
+{
+  "Port": {
+    "ID": 1,
+    "lat": 40.7128,
+    "lon": -74.0060
+  },
+  "Ship": {
+    "portID": 1,
+    "totalWeightCapacity": 15000,
+    "maxNumAllContainers": 5,
+    "maxNumHeavyContainers": 3,
+    "maxNumRefrigeratedContainers": 1,
+    "maxNumLiquidContainers": 1,
+    "fuelConsumptionPerKM": 1.5
+  },
+  "Container": {
+    "ID": 1,
+    "weight": 2000
+  },
+  "DestinationPort": {
+    "ID": 2,
+    "lat": 34.0522,
+    "lon": -118.2437
+  }
+}
+

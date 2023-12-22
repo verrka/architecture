@@ -1,0 +1,21 @@
+{
+  "Port": {
+    "ID": 1,
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "containers": [],
+    "ships": [
+      {
+        "ID": 0,
+        "fuelLeft": 0.00,
+        "containers": [
+          {
+            "ID": 1,
+            "weight": 2000
+          }
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,9 @@
+﻿  lab1arch.cpp
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(90,45): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(91,45): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(92,52): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(93,46): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(95,45): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(96,45): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(97,52): error C3861: 'toJsonArray': identifier not found
+C:\Users\veron\Desktop\lab1arch\lab1arch\lab1arch.cpp(98,46): error C3861: 'toJsonArray': identifier not found
