@@ -1,0 +1,97 @@
+{
+  "customers": [
+    {
+      "ID": 0,
+      "name": "Alice",
+      "age": 25,
+      "operatorID": 0,
+      "billLimit": 50.0
+    },
+    {
+      "ID": 1,
+      "name": "Bob",
+      "age": 30,
+      "operatorID": 1,
+      "billLimit": 40.0
+    },
+    {
+      "ID": 2,
+      "name": "Charlie",
+      "age": 17,
+      "operatorID": 2,
+      "billLimit": 30.0
+    }
+   
+  ],
+  "operators": [
+    {
+      "ID": 0,
+      "talkingCharge": 0.1,
+      "messageCost": 0.05,
+      "networkCharge": 0.2,
+      "discountRate": 10
+    },
+    {
+      "ID": 1,
+      "talkingCharge": 0.08,
+      "messageCost": 0.04,
+      "networkCharge": 0.15,
+      "discountRate": 15
+    },
+    {
+      "ID": 2,
+      "talkingCharge": 0.12,
+      "messageCost": 0.06,
+      "networkCharge": 0.25,
+      "discountRate": 12
+    }
+   
+  ],
+  "bills": [
+    {
+      "limitingAmount": 50.0
+    },
+    {
+      "limitingAmount": 40.0
+    },
+    {
+      "limitingAmount": 30.0
+    }
+    
+  ],
+  "actions": [
+    {
+      "type": "talk",
+      "customerID": 0,
+      "otherCustomerID": 1,
+      "minutes": 20
+    },
+    {
+      "type": "message",
+      "customerID": 1,
+      "otherCustomerID": 2,
+      "quantity": 30
+    },
+    {
+      "type": "connect",
+      "customerID": 2,
+      "amount": 100.0
+    },
+    {
+      "type": "pay",
+      "customerID": 3,
+      "amount": 20.0
+    },
+    {
+      "type": "changeOperator",
+      "customerID": 4,
+      "newOperatorID": 1
+    },
+    {
+      "type": "changeBillLimit",
+      "customerID": 0,
+      "newLimit": 60.0
+    }
+    
+  ]
+}

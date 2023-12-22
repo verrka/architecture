@@ -1,0 +1,35 @@
+{
+  "customers": [
+    {
+      "ID": 0,
+      "name": "Alice",
+      "age": 25,
+      "operatorID": 0,
+      "bill": {
+        "limitingAmount": 60.0,
+        "currentDebt": 10.0
+      }
+    },
+    {
+      "ID": 1,
+      "name": "Bob",
+      "age": 30,
+      "operatorID": 1,
+      "bill": {
+        "limitingAmount": 40.0,
+        "currentDebt": 15.0
+      }
+    },
+    {
+      "ID": 2,
+      "name": "Charlie",
+      "age": 17,
+      "operatorID": 2,
+      "bill": {
+        "limitingAmount": 30.0,
+        "currentDebt": 20.0
+      }
+    }
+   
+  ]
+}
